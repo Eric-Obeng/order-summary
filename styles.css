@@ -26,7 +26,9 @@ main {
     background-color: #ffffff;
     max-width: 500px;
     border-radius: 1rem;
+    /* margin: auto; */
 }
+
 #illustration-hero {
     width: 100%;
     display: block;
@@ -48,12 +50,12 @@ main section h1 {
     color: hsl(223, 47%, 23%);
 }
 
-main, section span {
+main section span {
     text-align: center;
     color: hsl(224, 100%, 78%);
 }
 
-main, img {
+main img {
     width: 100%;
     border-radius: 1rem 1rem 0 0;
     margin: auto;
@@ -75,7 +77,7 @@ main .information .music-prices {
     align-items: center;
 }
 
-main .information .price {
+main .information, .price {
     display: flex;
     flex-direction: column;
 }
