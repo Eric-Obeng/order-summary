@@ -26,7 +26,7 @@ main {
     background-color: #ffffff;
     max-width: 500px;
     border-radius: 1rem;
-    /* margin: auto; */
+    margin: auto;
 }
 
 #illustration-hero {
@@ -63,13 +63,13 @@ main img {
 
 main div.information {
     display: flex;
-    align-items: center;
+    align-items: center; 
     justify-content: space-between;
     width: 100%;
     background-color: hsl(225, 100%, 98%);
     border-radius: 0.8rem;
     padding: 1.5rem 1rem;
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 main .information .music-prices {
@@ -77,15 +77,23 @@ main .information .music-prices {
     align-items: center;
 }
 
-main .information, .price {
-    display: flex;
-    flex-direction: column;
+main .information .price {
+     display: flex; 
+     flex-direction: column;
 }
 
 main .informations img {
-    width: 48px;
-    margin-right: 1rem;
+     width: 48px; 
+     margin-right: 1rem; 
 }
+
+
+img, .price {
+    margin: 0 1rem;
+    padding-right: 0 1rem;
+}
+
+
 
 main .informations a {
     color: hsl(245, 75%, 52%);
